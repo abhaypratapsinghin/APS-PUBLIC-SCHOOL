@@ -1,0 +1,32 @@
+  	.fab {  
+  padding: 20px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 70px;  
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+}  
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+} 
+.fa:hover {  
+    opacity: 0.9;  
+}  
+#page-content {
+  flex: 1 0 auto;
+}
+#sticky-footer {
+  flex-shrink: none;
+}
