@@ -20,7 +20,7 @@
 </head>
   
   <body>
-<div class="bg-warning">
+<div class="mcontainer">
 
 <nav class="navbar navbar-expand-lg navbar-light bg-primary">
   <div class="container-fluid">
@@ -95,35 +95,49 @@
   </a>
 </div>
 
-<center>
-<h2 class="bg-primary">Send us a message to have a talk!</h2>
-</center>
-<div class="container">
-<div class="mb-3">
-  <label for="Name" class="form-label">Name</label>
-  <input type="text" class="form-control" id="Name" placeholder="John Doe">
-</div>
-<div class="mb-3">
-  <label for="Email" class="form-label">E-mail</label>
-  <input type="text" class="form-control" id="email" placeholder="abc@example.com">
-</div>
-<div class="mb-3">
-  <label for="Phone" class="form-label">Phone</label>
-  <input type="text" class="form-control" id="phone" placeholder="+911234567890">
-</div>
-<div class="mb-3">
-  <label for="Message" class="form-label">Message</label>
-  <input type="text" class="form-control" id="message" placeholder="I want to tell you that ...................!">
-  <br>
-<center>
- <div class="col-auto">
- <button type="submit" class="btn btn-primary">Submit</button>
- </div>
- </center>
-</div>
-</div>
+ <div>
+      <div style="text-align: center; margin-top: 40px; display: flex;justify-content: center;padding: 10px;">
+        <h1 style="text-align: center;" class="formdescription">
+          Let's <span class="auto_typed">Get in Touch.</span>
+        </h1>
+      </div>
 
+      <div class="container container1">
+        <div class="contacthead">
+          <img src="images/contact-form.png" alt="Contact image" style="min-height: 128px;min-width: 128px;">
+        </div>
+        <form action="">
+          <label for="fname"><b>Name</b></label>
+          <input type="text" id="fname" name="firstname" placeholder="John Doe">
+
+          <label for="lname"><b>Email</b></label>
+          <input type="email" id="lname" name="lastname" placeholder="abc@example.com">
+
+          <label for="phnum"><b>Phone</b></label>
+          <input type="text" id="phnum" name="phnumber" placeholder="+912345678910">
+
+          <label for="subject"><b>Subject</b></label>
+          <textarea id="subject" name="subject" placeholder="I want to tell you..........."
+            style="height:100px"></textarea>
+          <center>
+            <input type="submit" value="Submit">
+
+          </center>
+        </form>
+      </div>
+	 
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('.auto_typed', {
+          strings: ["Send Message"],
+          typeSpeed: 170,
+          backSpeed: 260,
+          loop: true
+        })
+      </script>
+    </div>
 <br>
+
 <div class="d-flex flex-column bg-primary">
   <div id="page-content">
     <div class="container text-center">
