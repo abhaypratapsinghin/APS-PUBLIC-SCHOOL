@@ -6,8 +6,6 @@
 
 
 .mcontainer {
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +13,7 @@
 .formdescription {
 
     font-size: 35px;
-    background: -webkit-linear-gradient(300deg, #03befd, #fb470b, #0263ff);
+    background: -webkit-linear-gradient(300deg, #03befd, #af01ff, #0263ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
